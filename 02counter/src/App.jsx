@@ -4,11 +4,21 @@ import './App.css'
 function App() {
   //react hooks 
   let [counter,setCounter]=useState(15)
-  //let counter=5
+
+  //interview question on counter(what is the output of below code && how to increament in each line)
+  // setCounter(counter+=1)
+  // setCounter(counter+=1)
+  // setCounter(counter+=1)
+  // setCounter(counter+=1)
+
+  //let counter=5 //solution of previous question
   const addValue=()=>{
-    console.log("clicked",counter);
-    counter+=1
-    setCounter(counter)
+    setCounter((prevCouner)=>prevCouner+1)
+    setCounter((prevCouner)=>prevCouner+1)
+    setCounter((prevCouner)=>prevCouner+1)
+    setCounter((prevCouner)=>prevCouner+1)
+    // counter+=1
+    // setCounter(counter)
   }
 
   const removeValue=()=>{
