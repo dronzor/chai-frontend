@@ -6,11 +6,13 @@ function Myapp(){
         <h1>custom app</h1>
     )
 }
+const AnotherUser="chai aur code"
 //standard way to create react element
 const reactElement=React.createElement(
     'a',
     {href:"https://google.com",target:"_blank"},
-    'click me to visit'
+    'click me to visit',
+    AnotherUser
 )
 ReactDOM.createRoot(document.getElementById('root')).render(
 
