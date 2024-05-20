@@ -13,10 +13,10 @@ function App() {
 
   //let counter=5 //solution of previous question
   const addValue=()=>{
-    setCounter((prevCouner)=>prevCouner+1)
-    setCounter((prevCouner)=>prevCouner+1)
-    setCounter((prevCouner)=>prevCouner+1)
-    setCounter((prevCouner)=>prevCouner+1)
+    setCounter((prevCouner)=>Counter+1)
+    setCounter((prevCoutner)=>prevCounter+1)
+    setCounter((prevCoutner)=>prevCounter+1)
+    setCounter((prevCoutner)=>prevCounter+1)
     // counter+=1
     // setCounter(counter)
   }
